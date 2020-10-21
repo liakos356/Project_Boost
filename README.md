@@ -34,7 +34,7 @@ Here are the lectures of the course for this section...
 2. How version control helps with game development.
 3. Setting up Git and SourceTree with Unity.
 
-### 5 Add Unity .gitignore Easily ###
+### 5 Add Unity `.gitignore` Easily ###
 1. What a `.gitignore` file is.
 2. Unity's `Library` folder is a cache.
 3. How to easily add a Unity `.gitignore`.
@@ -59,3 +59,79 @@ Here are the lectures of the course for this section...
 1. How to access a rigid body in Unity 2017.
 2. Using `AddRelativeForce()`.
 3. Adjusting mass to get our ship hovering!
+
+### 9b Coordinate System Handedness ###
+1. Some things in 2D and 3D have handedness.
+2. This is important when making computer games (and drugs).
+3. How to use your hands to predict rotations.
+
+### 10 Using Time.deltaTime ###
+1. Using a "Play Mode Tint".
+2. How to make things frame-rate independent.
+3. Using 'Time.deltaTime' to predict frame time.
+4. Getting our ship rotating in space.
+
+### 11 Adding A Touch Of Audio ###
+1. There's an Audio Listener on the Main Camera.
+2. An Audio Source component makes sounds.
+3. How to create and attach an Audio Clip.
+4. Making sounds when the rocket thrutsts.
+
+### 12 Resolving Movement Bugs ###
+1. A minor code refactor.
+2. Update our ship prefab.
+3. Create new gameplay platforms.
+4. Use Rigid Body Constraints.
+5. Using `rigidBody.freezeRotation = true`
+6. Adding some Drag to our ship.
+
+### 13 Using SerializeField vs public ###
+1. Multiply a vector by a float to change length.
+2. `SerializeField` vs `public` to expose to Inspector.
+3. Creating design "levers".
+4. Tweaking our rocket movement.
+
+### 14 Tagging Game Objects As Friendly ###
+1. The pros and cons of using tags in Unity.
+2. How to use `OnCollisionEnter()`.
+3. Differentiating between collisions.
+
+### 15 Basic Level Design ###
+1. Tweak our camera to suit our design intention.
+2. Design a simple game moment to form the basis of our level.
+3. Add a backdrop.
+
+### 16 Design Levers And Tuning ###
+1. What design levers do we currently have at our disposal?
+2. Some examples of extreme tuning.
+
+### 17 Making A Second Level ###
+1. Improving the look of our current level.
+2. Creating a new scene to create a new level.
+
+### 18 Prefabs In Detail ###
+1. Understanding what happens when a new prefab is created.
+2. Exploring when an instance gets changed if a prefab is updated.
+3. Adding a landing pad prefab.
+
+### 19 Level Loading & Scene Management ###
+1. How to add scenes to the build order.
+2. About the build index vs the scene name.
+3. Why we need `using UnityEngine.SceneManagement`.
+4. Using `SceneManager.LoadScene()`
+
+### 20 Invoke() As A Coroutine Warm-up ###
+1. How to fix scene getting dark on level load.
+2. Creating an `enum` for our player state.
+3. Using Unity's `Invoke()` to delay load.
+
+### 21 Playing Multiple Audio Clips ###
+1. You don't need a default audio clip on a source.
+2. Use `[SerializeField] AudioClip clipName` to expose a clip.
+3. Use `audioSource.PlayOneShot(clipName)` to play.
+4. How to handle multiple audio clips.
+
+### 22 Introducing Particle Effects ###
+1. What a particle effect is.
+2. How we designate which effect to play.
+3. Using `ParticleSystem.Play()` to trigger effect.
