@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B1A31B9A-9888-9E62-3DE9-079EDAC683B5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Rocket.cs">
+    <Files>
+      <File FileName="Assets/Rocket.cs" Line="32" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project_Boost" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Rocket.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="309409f5-75e9-4f5a-83cf-ac21dc21e93b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
